@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" role="img" aria-labelledby="title desc">
+  <title id="title">Logo Barbería a Domicilio</title>
+  <desc id="desc">Monograma BD con navaja y peine en estilo premium azul y negro.</desc>
+  <defs>
+    <linearGradient id="barberGradient" x1="28" x2="190" y1="22" y2="198" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#35d6ff"/>
+      <stop offset=".48" stop-color="#0a66ff"/>
+      <stop offset="1" stop-color="#001a44"/>
+    </linearGradient>
+    <linearGradient id="poleGradient" x1="42" x2="176" y1="194" y2="194" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d61f2c"/>
+      <stop offset=".5" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#35d6ff"/>
+    </linearGradient>
+    <filter id="softGlow" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#1a8cff" flood-opacity=".35"/>
+    </filter>
+  </defs>
+  <rect width="220" height="220" rx="42" fill="#05070b"/>
+  <path d="M110 18 177 45v57c0 44-27 76-67 100-40-24-67-56-67-100V45l67-27Z" fill="#0b1220" stroke="url(#barberGradient)" stroke-width="8" filter="url(#softGlow)"/>
+  <path d="M77 63h36c23 0 38 12 38 31 0 11-5 20-15 25 13 5 21 16 21 31 0 24-18 38-48 38H77V63Zm34 49c13 0 21-6 21-16s-8-15-21-15H96v31h15Zm1 58c16 0 25-7 25-20s-9-20-25-20H96v40h16Z" fill="#f8fbff"/>
+  <path d="M59 165 162 62" stroke="#35d6ff" stroke-width="7" stroke-linecap="round"/>
+  <path d="M150 74h29l-17-17-12 17Z" fill="#35d6ff"/>
+  <path d="M44 188h132" stroke="#f8fbff" stroke-opacity=".7" stroke-width="5" stroke-linecap="round"/>
+  <path d="M56 198h108" stroke="url(#poleGradient)" stroke-width="6" stroke-linecap="round"/>
+  <path d="M64 45h92" stroke="url(#poleGradient)" stroke-width="5" stroke-linecap="round"/>
+</svg>
