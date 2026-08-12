@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barbería a Domicilio en Ciudad Juárez | Cortes en Valle del Sol y Satélite</title>
+  <meta name="description" content="Barbería a domicilio en Ciudad Juárez. Cortes de cabello profesionales en Valle del Sol, Satélite y alrededores, con atención personalizada en la comodidad de tu hogar.">
+  <meta name="keywords" content="barbería a domicilio Ciudad Juárez, corte de cabello a domicilio, barbero Valle del Sol, barbero Satélite, cortes de cabello Juárez">
+  <meta name="author" content="Barbería a Domicilio">
+  <meta name="robots" content="index, follow">
+
+  <meta property="og:title" content="Barbería a Domicilio | Cortes en Valle del Sol y Satélite">
+  <meta property="og:description" content="Cortes de cabello profesionales sin salir de casa en áreas seleccionadas de Ciudad Juárez.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_MX">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1665947823432-fabb5e9631bf?auto=format&fit=crop&w=1600&q=80">
+
+  <link rel="icon" type="image/svg+xml" href="assets/img/logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Montserrat:wght@600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="loading-screen" aria-hidden="true">
+    <div class="loader-grid"></div>
+    <div class="loader-inner">
+      <img src="assets/img/logo.svg" alt="" class="loader-logo">
+      <div class="loader-ring"></div>
+      <p>Cargando experiencia...</p>
+    </div>
+  </div>
+
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a href="#inicio" class="brand" aria-label="Barbería a Domicilio — Inicio">
+        <img src="assets/img/logo.svg" alt="Logo de Barbería a Domicilio" class="brand-logo">
+        <span class="brand-text">
+          <span class="brand-name">Barbería</span>
+          <span class="brand-tagline">A domicilio</span>
+        </span>
+      </a>
+
+      <nav class="main-nav" id="main-nav" aria-label="Navegación principal">
+        <ul>
+          <li><a href="#inicio" class="nav-link">Inicio</a></li>
+          <li><a href="#ventajas" class="nav-link">Ventajas</a></li>
+          <li><a href="#servicios" class="nav-link">Servicios</a></li>
+          <li><a href="#proceso" class="nav-link">Proceso</a></li>
+          <li><a href="#contacto" class="nav-link">Contacto</a></li>
+        </ul>
+        <a href="https://wa.me/?text=Hola%2C%20quiero%20agendar%20un%20corte%20de%20cabello%20a%20domicilio%20en%20Ciudad%20Ju%C3%A1rez." target="_blank" rel="noopener" class="btn btn-primary btn-nav">
+          <i data-lucide="message-circle" aria-hidden="true"></i>
+          WhatsApp
+        </a>
+      </nav>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <canvas id="particles-canvas" aria-hidden="true"></canvas>
+      <img class="hero-video" src="https://images.unsplash.com/photo-1665947823432-fabb5e9631bf?auto=format&fit=crop&w=2200&q=85" alt="Barbero profesional realizando corte masculino con máquina">
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="hero-scan" aria-hidden="true"></div>
+
+      <div class="container hero-inner">
+        <p class="eyebrow reveal" data-reveal>Cortes profesionales en Valle del Sol, Satélite y alrededores</p>
+
+        <h1 class="hero-title reveal" data-reveal>
+          Tu corte listo, <span class="highlight-word">sin salir</span> de casa.
+        </h1>
+
+        <p class="hero-typewriter reveal" data-reveal>
+          Servicio de barbería a domicilio para <span class="typewriter-word" id="typewriter"></span><span class="typewriter-cursor">|</span>
+        </p>
+
+        <p class="hero-desc reveal" data-reveal>
+          Atención personalizada, horarios por cita y una experiencia cómoda para quienes buscan un corte limpio, práctico y bien ejecutado en áreas seleccionadas de Ciudad Juárez.
+        </p>
+
+        <div class="hero-cta reveal" data-reveal>
+          <a href="https://wa.me/?text=Hola%2C%20quiero%20agendar%20un%20corte%20a%20domicilio.%20Estoy%20en%20la%20zona%20de%20Valle%20del%20Sol%2C%20Sat%C3%A9lite%20o%20alrededores." target="_blank" rel="noopener" class="btn btn-primary btn-lg">
+            <i data-lucide="calendar-check" aria-hidden="true"></i>
+            Solicitar cita
+          </a>
+          <a href="#servicios" class="btn btn-outline btn-lg">
+            <i data-lucide="scissors" aria-hidden="true"></i>
+            Ver servicios
+          </a>
+        </div>
+
+        <div class="hero-trust reveal" data-reveal>
+          <span>A domicilio</span>
+          <span>Atención personalizada</span>
+          <span>Zonas seleccionadas</span>
+        </div>
+      </div>
+
+      <a href="#ventajas" class="scroll-indicator" aria-label="Desplázate hacia abajo">
+        <span></span>
+      </a>
+    </section>
+
+    <section class="about" id="ventajas">
+      <div class="section-particles" aria-hidden="true"></div>
+      <div class="container about-grid">
+        <div class="about-media reveal" data-reveal>
+          <div class="about-media-frame">
+            <img src="https://images.unsplash.com/photo-1686671805337-7d8aa64b965f?auto=format&fit=crop&w=1400&q=85" alt="Barbero dando forma a un corte masculino con máquina profesional" loading="lazy">
+          </div>
+          <div class="about-media-badge">
+            <span class="badge-number">Casa</span>
+            <span class="badge-label">Comodidad real<br>para tu rutina</span>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <p class="eyebrow reveal" data-reveal>Por qué elegirnos</p>
+          <h2 class="section-title reveal" data-reveal>Ritual de barbería, <span class="text-accent">sin salir</span> de casa.</h2>
+          <p class="section-desc reveal" data-reveal>
+            La propuesta es simple: un barbero profesional llega a tu domicilio para darte un corte cuidado, cómodo y adaptado a lo que necesitas, especialmente en Valle del Sol, Satélite y zonas cercanas.
+          </p>
+
+          <div class="features-grid compact">
+            <article class="feature-card reveal" data-reveal>
+              <span class="feature-number">01</span>
+              <h3>Vas directo al corte</h3>
+              <p>Evitas traslados, esperas y vueltas innecesarias. La cita se enfoca en resolver tu corte en casa.</p>
+            </article>
+            <article class="feature-card reveal" data-reveal>
+              <span class="feature-number">02</span>
+              <h3>Atención uno a uno</h3>
+              <p>El servicio se adapta a tu estilo, tipo de cabello y preferencia de acabado.</p>
+            </article>
+            <article class="feature-card reveal" data-reveal>
+              <span class="feature-number">03</span>
+              <h3>Zonas claras</h3>
+              <p>Cobertura enfocada en Valle del Sol, Satélite y alrededores de Ciudad Juárez.</p>
+            </article>
+            <article class="feature-card reveal" data-reveal>
+              <span class="feature-number">04</span>
+              <h3>Imagen cuidada</h3>
+              <p>Ideal para mantener tu corte al día sin romper tu agenda semanal.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="servicios">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow reveal" data-reveal>Servicios</p>
+          <h2 class="section-title reveal" data-reveal>Cortes a domicilio con una experiencia <span class="text-accent">premium y directa</span>.</h2>
+          <p class="section-desc reveal" data-reveal>Servicios centrados en corte de cabello, detalle y comodidad. Sin información inflada: lo esencial, bien hecho.</p>
+        </div>
+
+        <div class="services-card-grid">
+          <article class="service-card reveal" data-reveal>
+            <img src="https://images.unsplash.com/photo-1665947823432-fabb5e9631bf?auto=format&fit=crop&w=1200&q=85" alt="Corte de cabello masculino con máquina y acabado limpio" loading="lazy">
+            <div>
+              <span>01</span>
+              <h3>Corte de cabello a domicilio</h3>
+              <p>Servicio principal para renovar o mantener tu estilo sin salir de casa.</p>
+            </div>
+          </article>
+          <article class="service-card reveal" data-reveal>
+            <img src="https://images.unsplash.com/photo-1710367847973-152d445b23a6?auto=format&fit=crop&w=1200&q=85" alt="Detalle de corte masculino con tijera y peine" loading="lazy">
+            <div>
+              <span>02</span>
+              <h3>Detalle y acabado</h3>
+              <p>Enfoque en forma, simetría y terminación para que el corte se vea limpio.</p>
+            </div>
+          </article>
+          <article class="service-card reveal" data-reveal>
+            <img src="https://images.pexels.com/photos/11287869/pexels-photo-11287869.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Máquina de corte profesional trabajando sobre cabello masculino" loading="lazy">
+            <div>
+              <span>03</span>
+              <h3>Cita en zona de cobertura</h3>
+              <p>Atención en Valle del Sol, Satélite y alrededores, sujeto a confirmación por WhatsApp.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="parallax-banner parallax-one">
+      <div class="parallax-overlay"></div>
+      <div class="container parallax-content">
+        <p class="eyebrow reveal" data-reveal>Más cómodo para ti</p>
+        <h2 class="reveal" data-reveal>La barbería llega a tu agenda, no al revés.</h2>
+      </div>
+    </section>
+
+    <section class="process" id="proceso">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow reveal" data-reveal>Cómo funciona</p>
+          <h2 class="section-title reveal" data-reveal>Tres pasos. <span class="text-accent">Cero complicaciones.</span></h2>
+        </div>
+
+        <div class="process-grid">
+          <article class="process-step reveal" data-reveal>
+            <span>Paso 01</span>
+            <h3>Escribe por WhatsApp</h3>
+            <p>Indica tu zona, el tipo de corte que buscas y el horario que prefieres.</p>
+          </article>
+          <article class="process-step reveal" data-reveal>
+            <span>Paso 02</span>
+            <h3>Confirma cobertura</h3>
+            <p>Se valida si tu ubicación entra en Valle del Sol, Satélite o alrededores.</p>
+          </article>
+          <article class="process-step reveal" data-reveal>
+            <span>Paso 03</span>
+            <h3>Recibe tu corte</h3>
+            <p>El servicio se realiza en tu domicilio con atención personalizada.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats" id="numeros">
+      <div class="container stats-grid">
+        <div class="stat-card reveal" data-reveal>
+          <strong data-count="3">0</strong>
+          <span>Zonas base mencionadas</span>
+        </div>
+        <div class="stat-card reveal" data-reveal>
+          <strong data-count="100">0</strong>
+          <span>% servicio a domicilio</span>
+        </div>
+        <div class="stat-card reveal" data-reveal>
+          <strong data-count="1">0</strong>
+          <span>Atención uno a uno</span>
+        </div>
+        <div class="stat-card reveal" data-reveal>
+          <strong data-count="0">0</strong>
+          <span>Traslados del cliente</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="parallax-banner parallax-two">
+      <div class="parallax-overlay"></div>
+      <div class="container parallax-content">
+        <p class="eyebrow reveal" data-reveal>Servicio local</p>
+        <h2 class="reveal" data-reveal>Valle del Sol, Satélite y zonas cercanas de Juárez.</h2>
+      </div>
+    </section>
+
+    <section class="gallery" id="galeria">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow reveal" data-reveal>Galería</p>
+          <h2 class="section-title reveal" data-reveal>Estética de barbería <span class="text-accent">limpia y masculina</span>.</h2>
+          <p class="section-desc reveal" data-reveal>Fotografías de referencia seleccionadas para comunicar el tipo de experiencia: corte masculino, detalle, máquina, tijera y acabado profesional.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <figure class="gallery-item reveal" data-reveal>
+            <img src="https://images.unsplash.com/photo-1686671805337-7d8aa64b965f?auto=format&fit=crop&w=1100&q=85" alt="Barbero perfilando corte masculino con máquina" loading="lazy">
+            <figcaption>Perfilado con máquina.</figcaption>
+          </figure>
+          <figure class="gallery-item reveal" data-reveal>
+            <img src="https://images.unsplash.com/photo-1710367847973-152d445b23a6?auto=format&fit=crop&w=1100&q=85" alt="Corte masculino con tijera y peine" loading="lazy">
+            <figcaption>Tijera, peine y textura.</figcaption>
+          </figure>
+          <figure class="gallery-item reveal" data-reveal>
+            <img src="https://images.unsplash.com/photo-1717089256239-dc2ed4d9dfc6?auto=format&fit=crop&w=1100&q=85" alt="Detalle de navaja en barba y contorno masculino" loading="lazy">
+            <figcaption>Contorno y detalle.</figcaption>
+          </figure>
+          <figure class="gallery-item reveal" data-reveal>
+            <img src="https://images.pexels.com/photos/11287869/pexels-photo-11287869.jpeg?auto=compress&cs=tinysrgb&w=1100" alt="Detalle de máquina profesional para corte de cabello masculino" loading="lazy">
+            <figcaption>Herramienta profesional.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contacto">
+      <div class="section-particles alt" aria-hidden="true"></div>
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <p class="eyebrow reveal" data-reveal>Contacto</p>
+          <h2 class="section-title reveal" data-reveal>Agenda tu corte <span class="text-accent">por WhatsApp</span>.</h2>
+          <p class="section-desc reveal" data-reveal>
+            Comparte tu zona y el horario que buscas. El mensaje se prepara automáticamente para que el contacto sea rápido y claro.
+          </p>
+
+          <ul class="contact-list reveal" data-reveal>
+            <li>
+              <i data-lucide="map-pin" aria-hidden="true"></i>
+              <span>Zona de servicio: Valle del Sol, Satélite y alrededores de Ciudad Juárez.</span>
+            </li>
+            <li>
+              <i data-lucide="clock" aria-hidden="true"></i>
+              <span>Atención con cita previa.</span>
+            </li>
+            <li>
+              <i data-lucide="message-circle" aria-hidden="true"></i>
+              <a href="https://wa.me/?text=Hola%2C%20quiero%20agendar%20un%20corte%20a%20domicilio%20en%20Ciudad%20Ju%C3%A1rez." target="_blank" rel="noopener">Abrir WhatsApp</a>
+            </li>
+          </ul>
+
+          <div class="contact-map reveal" data-reveal>
+            <iframe
+              title="Zona de servicio Barbería a Domicilio en Ciudad Juárez"
+              src="https://www.google.com/maps?q=Valle%20del%20Sol%20Ciudad%20Ju%C3%A1rez%20Chihuahua&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" data-reveal id="booking-form">
+          <label>
+            Nombre
+            <input type="text" name="name" placeholder="Tu nombre" required>
+          </label>
+          <label>
+            Zona
+            <input type="text" name="zone" placeholder="Ej. Valle del Sol" required>
+          </label>
+          <label>
+            Servicio
+            <select name="service" required>
+              <option value="Corte de cabello a domicilio">Corte de cabello a domicilio</option>
+              <option value="Detalle y acabado">Detalle y acabado</option>
+              <option value="Confirmar cobertura">Confirmar cobertura</option>
+            </select>
+          </label>
+          <label>
+            Mensaje
+            <textarea name="message" rows="4" placeholder="Horario preferido o detalle del corte"></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary btn-lg">
+            <i data-lucide="send" aria-hidden="true"></i>
+            Enviar por WhatsApp
+          </button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#inicio" class="brand">
+          <img src="assets/img/logo.svg" alt="Logo de Barbería a Domicilio" class="brand-logo">
+          <span class="brand-text">
+            <span class="brand-name">Barbería</span>
+            <span class="brand-tagline">A domicilio</span>
+          </span>
+        </a>
+        <p>Cortes profesionales en casa para Valle del Sol, Satélite y alrededores.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Navegación</h4>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#ventajas">Ventajas</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#proceso">Proceso</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Servicio</h4>
+        <ul>
+          <li>Barbería a domicilio</li>
+          <li>Ciudad Juárez, Chihuahua</li>
+          <li>Valle del Sol, Satélite y alrededores</li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Redes y contacto</h4>
+        <div class="social-links">
+          <a href="https://wa.me/?text=Hola%2C%20quiero%20agendar%20un%20corte%20a%20domicilio." target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+            <i data-lucide="message-circle" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.google.com/maps/search/?api=1&query=Valle%20del%20Sol%20Ciudad%20Ju%C3%A1rez%20Chihuahua" target="_blank" rel="noopener" aria-label="Ver zona de servicio en Google Maps">
+            <i data-lucide="map-pin" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; <span id="year"></span> Barbería a Domicilio. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/?text=Hola%2C%20quiero%20agendar%20un%20corte%20a%20domicilio%20en%20Ciudad%20Ju%C3%A1rez." target="_blank" rel="noopener" class="whatsapp-float" aria-label="Contactar por WhatsApp">
+    <i data-lucide="message-circle" aria-hidden="true"></i>
+  </a>
+
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
