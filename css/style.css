@@ -478,6 +478,7 @@ section {
 
 .about,
 .services,
+.pricing,
 .process,
 .gallery,
 .contact {
@@ -673,6 +674,62 @@ section {
   font-size: .8rem;
   font-weight: 900;
   text-transform: uppercase;
+}
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.pricing-card {
+  border: 1px solid rgba(255, 255, 255, .12);
+  border-radius: var(--radius);
+  background: linear-gradient(180deg, rgba(255, 255, 255, .08), rgba(255, 255, 255, .035));
+  box-shadow: 0 18px 60px rgba(0, 0, 0, .18);
+  backdrop-filter: blur(16px);
+  padding: 28px 24px;
+  text-align: center;
+}
+
+.pricing-card h3 {
+  margin: 0 0 14px;
+  color: var(--color-white);
+  font-size: 1.1rem;
+}
+
+.pricing-amount {
+  margin: 0 0 6px;
+  color: var(--color-cyan);
+  font-family: "Montserrat", sans-serif;
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  font-weight: 900;
+}
+
+.pricing-card p:last-child {
+  margin: 0;
+  color: var(--color-muted);
+}
+
+.pricing-extras {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px 32px;
+  margin: 34px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pricing-extras li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #e4efff;
+}
+
+.pricing-extras i {
+  flex: 0 0 auto;
+  color: var(--color-cyan);
 }
 
 .parallax-banner {
@@ -1085,6 +1142,7 @@ section {
   .features-grid,
   .features-grid.compact,
   .services-card-grid,
+  .pricing-grid,
   .process-grid,
   .stats-grid,
   .gallery-grid,
@@ -1171,6 +1229,7 @@ section {
   .features-grid,
   .features-grid.compact,
   .services-card-grid,
+  .pricing-grid,
   .process-grid,
   .stats-grid,
   .gallery-grid,

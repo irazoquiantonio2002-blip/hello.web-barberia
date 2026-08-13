@@ -144,7 +144,7 @@
       message ? `Mensaje: ${message}` : ""
     ].filter(Boolean).join("\n");
 
-    window.open(`https://wa.me/?text=${encodeURIComponent(whatsappText)}`, "_blank", "noopener");
+    window.open(`https://wa.me/526568587040?text=${encodeURIComponent(whatsappText)}`, "_blank", "noopener");
   });
 
   const canvas = document.getElementById("particles-canvas");
